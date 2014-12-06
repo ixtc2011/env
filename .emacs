@@ -1,3 +1,5 @@
+;;; comment added after 0.1 tag
+
 (if (eq system-type 'windows-nt)
     ()	; (setq load-path (cons "c:\\..." load-path))
   ()	; (setq load-path (cons "/cygdrive/c/..." load-path))
