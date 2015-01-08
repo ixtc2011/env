@@ -1,6 +1,6 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;
-;;; Time-stamp: <01/03/15 14:39:36 Daddy>
+;;; Time-stamp: <01/08/15 16:16:08 Daddy>
 ;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -10,7 +10,7 @@
 ;;;
 
 (defconst ix-load-path
-  `((windows (concat "C:\\Cygwin\\Home\\" (user-login-name) "\\emacs\\"))
+  `((windows ,(concat "C:\\Cygwin\\Home\\" (user-login-name) "\\emacs\\"))
     (cygwin ,(expand-file-name "~/emacs"))
     (linux ,(expand-file-name "~/emacs"))))
 
